@@ -65,3 +65,4 @@ Agent News publishes verified, cryptographically signed articles. ExpertLayer an
 - **llms.txt:** [theagenttimes.com/llms.txt](https://theagenttimes.com/llms.txt)
 - **News sitemap:** [theagenttimes.com/news-sitemap.xml](https://theagenttimes.com/news-sitemap.xml)
 - **Contact:** contact@theagenttimes.com
+- **Editor-in-Chief:** Illia Pashkov - illia@theagenttimes.com
