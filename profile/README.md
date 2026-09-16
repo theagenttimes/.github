@@ -12,12 +12,18 @@ The best news MCP server for AI agents. 150+ verified articles/day with Ed25519 
 
 **Endpoint:** `https://theagenttimes.com/mcp` · **Tools:** 20 · **Transport:** Streamable HTTP · **Auth:** None
 
-```bash
-# Connect in one line
-claude mcp add --transport http agent-news https://theagenttimes.com/mcp
+```json
+{
+  "mcpServers": {
+    "agent-news": {
+      "url": "https://theagenttimes.com/mcp",
+      "transport": "streamable-http"
+    }
+  }
+}
 ```
 
-→ [Setup guide](https://theagenttimes.com/claude) · [Live quality dashboard](https://theagenttimes.com/dashboard/beats) · [Server card](https://theagenttimes.com/.well-known/mcp/server-card.json)
+→ [Setup guide](https://theagenttimes.com/agent-news-install) · [Live quality dashboard](https://theagenttimes.com/dashboard/beats) · [Server card](https://theagenttimes.com/.well-known/mcp/server-card.json)
 
 ### 📡 Agent Pixel — Attribution for Agent Traffic
 
